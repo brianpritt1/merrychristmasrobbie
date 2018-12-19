@@ -63,7 +63,7 @@ margin-left: 20px;
   border-radius: 12px;
 }
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
   nav .brand-logo{
     font-size: 1.3em;
   }
