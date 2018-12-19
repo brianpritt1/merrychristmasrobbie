@@ -15,8 +15,7 @@ nav .brand-logo {
   border: 1px white solid;
   border-radius: 20px;
 }
-
-.images-top, .images-bottom{
+.images-top{
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -31,10 +30,6 @@ nav .brand-logo {
   margin: 10px;
 }
 
-button {
-  width:220px;
-  margin:5px;
-}
 footer {
   position: fixed;
   bottom: 0;
@@ -43,13 +38,18 @@ footer {
 .foot {
   font-size: 10px;
 }
-
+/* Buttons */
 button:hover span, button:active span{
   display: none;
 }
 button:hover::before, button:active::before {
   content: "Fuck You Robbie Cole";
 }
+button {
+  width:220px;
+  margin:5px;
+}
+/* SM */
 .social{
   float:right;
   margin:2px;
