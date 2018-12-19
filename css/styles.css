@@ -1,0 +1,90 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url(../img/bg.jpg);
+}
+.centering {
+  text-align: center;
+}
+nav .brand-logo {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+.title {
+  font-size: 40px;
+  margin-left: 10px;
+  border: 1px white solid;
+  border-radius: 20px;
+}
+
+.images-top, .images-bottom{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.images-bottom{
+  display:none;
+}
+.cole {
+  height: 200px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+button {
+  width:220px;
+  margin:5px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.foot {
+  font-size: 10px;
+}
+
+button:hover span, button:active span{
+  display: none;
+}
+button:hover::before, button:active::before {
+  content: "Fuck You Robbie Cole";
+}
+.social{
+  float:right;
+  margin:2px;
+}
+.so-me-twi, so-me-fb{
+margin-left: 20px;
+
+}
+.card {
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+  nav .brand-logo{
+    font-size: 1.3em;
+  }
+  .social{
+    float:none;
+  }
+  .so-me-twi{
+    float:left;
+    margin-left: 20px;
+  }
+  .so-me-fb{
+    float:right;
+    margin-right: 20px;
+  }
+  .images-top{
+    display: none;
+  }
+  .images-bottom{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+}
